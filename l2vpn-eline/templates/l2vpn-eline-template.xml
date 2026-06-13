@@ -58,7 +58,7 @@
 						<name>{$INTERFACE-ID}.{/provider-edge/device[name=$DEVICE-NAME]/interface[name=$INTERFACE-NAME]/efp-id}</name>
 						<encapsulation>
                             <dot1Q>
-                                <vlan-id>10</vlan-id>
+                                <vlan-id>{$VLAN-ID}</vlan-id>
                             </dot1Q>
                         </encapsulation>
                         <mtu>{$MTU}</mtu>
@@ -81,7 +81,7 @@
                         <name>{$INTERFACE-ID}.{/provider-edge/device[name=$DEVICE-NAME]/interface[name=$INTERFACE-NAME]/efp-id}</name>
                         <encapsulation>
                             <dot1Q>
-                                <vlan-id>10</vlan-id>
+                                <vlan-id>{$VLAN-ID}</vlan-id>
                             </dot1Q>
                         </encapsulation>
                         <mtu>{$MTU}</mtu>
@@ -104,7 +104,7 @@
                         <name>{$INTERFACE-ID}.{/provider-edge/device[name=$DEVICE-NAME]/interface[name=$INTERFACE-NAME]/efp-id}</name>
                         <encapsulation>
                             <dot1Q>
-                                <vlan-id>10</vlan-id>
+                                <vlan-id>{$VLAN-ID}</vlan-id>
                             </dot1Q>
                         </encapsulation>
                         <mtu>{$MTU}</mtu>
