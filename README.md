@@ -43,6 +43,8 @@ After building, reload the package in your running NSO instance:
 ncs_cmd -c 'maction /ncs:packages/ncs:reload'
 ```
 
+![Cisco NSO l2vpn-eline development and release pipeline](nso_l2vpn_eline_dev_pipeline.svg)
+
 ## Testing
 
 Tests are written in pytest and interact with a live NSO instance via MAAPI. They require:

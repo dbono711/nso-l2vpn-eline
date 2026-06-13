@@ -47,7 +47,7 @@
 				    <!-- Ethernet interfaces in port mode -->
 					<Ethernet when="{$INTERFACE-TYPE = 'Ethernet' and $PORT-MODE = 'true'}">
 						<name>{$INTERFACE-ID}</name>
-						<mtu>{$MTU}</mtu>
+						<mtu when="{$MTU != 'None'}">{$MTU}</mtu>
 						<service-policy>
 							<input>{$SERVICE-ID}</input>
 						</service-policy>
@@ -61,7 +61,7 @@
                                 <vlan-id>{$VLAN-ID}</vlan-id>
                             </dot1Q>
                         </encapsulation>
-                        <mtu>{$MTU}</mtu>
+                        <mtu when="{$MTU != 'None'}">{$MTU}</mtu>
                         <service-policy>
                             <input>{$SERVICE-ID}</input>
                         </service-policy>
@@ -70,7 +70,7 @@
 					<!-- Gigabit Ethernet interfaces in port mode -->
               		<GigabitEthernet when="{$INTERFACE-TYPE = 'GigabitEthernet' and $PORT-MODE = 'true'}">
                         <name>{$INTERFACE-ID}</name>
-                        <mtu>{$MTU}</mtu>
+                        <mtu when="{$MTU != 'None'}">{$MTU}</mtu>
                         <service-policy>
                             <input>{$SERVICE-ID}</input>
                         </service-policy>
@@ -84,7 +84,7 @@
                                 <vlan-id>{$VLAN-ID}</vlan-id>
                             </dot1Q>
                         </encapsulation>
-                        <mtu>{$MTU}</mtu>
+                        <mtu when="{$MTU != 'None'}">{$MTU}</mtu>
                         <service-policy>
                             <input>{$SERVICE-ID}</input>
                         </service-policy>
@@ -93,7 +93,7 @@
                     <!-- TenGigabitEthernet interfaces in port mode -->
               		<TenGigabitEthernet when="{$INTERFACE-TYPE = 'TenGigabitEthernet' and $PORT-MODE = 'true'}">
                         <name>{$INTERFACE-ID}</name>
-                        <mtu>{$MTU}</mtu>
+                        <mtu when="{$MTU != 'None'}">{$MTU}</mtu>
                         <service-policy>
                             <input>{$SERVICE-ID}</input>
                         </service-policy>
@@ -107,7 +107,7 @@
                                 <vlan-id>{$VLAN-ID}</vlan-id>
                             </dot1Q>
                         </encapsulation>
-                        <mtu>{$MTU}</mtu>
+                        <mtu when="{$MTU != 'None'}">{$MTU}</mtu>
                         <service-policy>
                             <input>{$SERVICE-ID}</input>
                         </service-policy>

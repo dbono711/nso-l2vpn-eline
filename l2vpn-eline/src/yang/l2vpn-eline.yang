@@ -17,6 +17,10 @@ module l2vpn-eline {
   description
     "NSO service package for basic MPLS Layer 2 VPN (L2VPN) ELINE services";
 
+  revision 2026-06-13 {
+    description "Remove default MTU";
+  }
+
   revision 2026-04-13 {
     description "Initial revision";
   }
@@ -33,7 +37,6 @@ module l2vpn-eline {
       type uint32 {
         range 1500..9000;
       }
-      default 2000;
     }
 
     leaf port-mode {
