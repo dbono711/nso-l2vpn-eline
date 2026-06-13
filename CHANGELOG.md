@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.1.0](https://github.com/dbono711/nso-l2vpn-eline/compare/v2.0.0...v2.1.0) (2026-06-13)
+
+
+### Features
+
+* Remove default MTU and make MTU optional ([db41ec3](https://github.com/dbono711/nso-l2vpn-eline/commit/db41ec3235a7f2e58779bc19929c2ff3ab28224c))
+* Remove default MTU and make MTU optional ([c244259](https://github.com/dbono711/nso-l2vpn-eline/commit/c244259c2e806bd755e0a586515d8b449332e3b5))
+
 ## [2.0.0](https://github.com/dbono711/nso-l2vpn-eline/compare/v1.0.0...v2.0.0) (2026-06-13)
 
 
