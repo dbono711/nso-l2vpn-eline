@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/dbono711/nso-l2vpn-eline/compare/v1.0.0...v2.0.0) (2026-06-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* Parameterize VLAN ID
+
+### Features
+
+* Parameterize VLAN ID ([7f69e33](https://github.com/dbono711/nso-l2vpn-eline/commit/7f69e33ee73165758a90d8b133a8f443b8ebd8f9))
+
 ## 1.0.0 (2026-05-17)
 
 
